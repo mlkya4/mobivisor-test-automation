@@ -1,11 +1,3 @@
-# Mobivisor Test Automation
-
-End-to-end test automation project for the **Mobivisor MDM** web application.  
-The project uses **CodeceptJS** with the **Playwright** helper and follows the **Page Object** pattern.
-
-## 📁 Project Structure
-
-```text
 mobivisorTestOtomasyonu/
 ├── codecept.conf.js        # CodeceptJS configuration
 ├── pages/                  # Page Objects
