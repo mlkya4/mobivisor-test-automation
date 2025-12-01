@@ -5,7 +5,7 @@ module.exports = function() {
     loginAsAdmin: function(){
       this.amOnPage('/');
       this.fillField('#username', 'admin');
-      this.fillField('#password', 'testpass');
+      this.fillField('#password', 'admin');
       this.forceClick({xpath : "//button[@class='btn bg-color-navbar btn-sm form-control' or @type ='submit']"});
       
     }
