@@ -1,6 +1,6 @@
 Feature('Login');
 const username = 'admin' ;
-const password = 'testpass' ;
+const password = 'admin' ;
 Before(({I})=>{
     I.amOnPage('/')
 })
